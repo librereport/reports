@@ -1,0 +1,75 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.2  28568  4608 ?        Ss   00:45   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    00:45   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    00:45   0:02 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   00:45   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    00:45   0:01 [kworker/u2:0]
+root         7  0.0  0.0      0     0 ?        S    00:45   0:01 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    00:45   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    00:45   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    00:45   0:03 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S<   00:45   0:00 [khelper]
+root        12  0.0  0.0      0     0 ?        S    00:45   0:00 [kdevtmpfs]
+root        13  0.0  0.0      0     0 ?        S<   00:45   0:00 [netns]
+root        14  0.0  0.0      0     0 ?        S    00:45   0:00 [khungtaskd]
+root        15  0.0  0.0      0     0 ?        S<   00:45   0:00 [writeback]
+root        16  0.0  0.0      0     0 ?        SN   00:45   0:00 [ksmd]
+root        17  0.0  0.0      0     0 ?        SN   00:45   0:00 [khugepaged]
+root        18  0.0  0.0      0     0 ?        S<   00:45   0:00 [crypto]
+root        19  0.0  0.0      0     0 ?        S<   00:45   0:00 [kintegrityd]
+root        20  0.0  0.0      0     0 ?        S<   00:45   0:00 [bioset]
+root        21  0.0  0.0      0     0 ?        S<   00:45   0:00 [kblockd]
+root        23  0.0  0.0      0     0 ?        S    00:45   0:00 [kswapd0]
+root        24  0.0  0.0      0     0 ?        S<   00:45   0:00 [vmstat]
+root        25  0.0  0.0      0     0 ?        S    00:45   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S<   00:45   0:00 [kthrotld]
+root        32  0.0  0.0      0     0 ?        S<   00:45   0:00 [ipv6_addrconf]
+root        34  0.0  0.0      0     0 ?        S<   00:45   0:00 [deferwq]
+root        68  0.0  0.0      0     0 ?        S<   00:45   0:00 [ata_sff]
+root        69  0.0  0.0      0     0 ?        S    00:45   0:00 [scsi_eh_0]
+root        70  0.0  0.0      0     0 ?        S<   00:45   0:00 [scsi_tmf_0]
+root        71  0.0  0.0      0     0 ?        S    00:45   0:00 [scsi_eh_1]
+root        72  0.0  0.0      0     0 ?        S<   00:45   0:00 [scsi_tmf_1]
+root        75  0.0  0.0      0     0 ?        S<   00:45   0:00 [mpt_poll_0]
+root        76  0.0  0.0      0     0 ?        S    00:45   0:00 [khubd]
+root        77  0.0  0.0      0     0 ?        S<   00:45   0:00 [mpt/0]
+root        78  0.0  0.0      0     0 ?        S<   00:45   0:00 [kpsmoused]
+root        82  0.0  0.0      0     0 ?        S    00:45   0:00 [scsi_eh_2]
+root        83  0.0  0.0      0     0 ?        S<   00:45   0:00 [scsi_tmf_2]
+root        87  0.0  0.0      0     0 ?        S<   00:45   0:00 [kworker/0:1H]
+root       107  0.0  0.0      0     0 ?        S    00:45   0:00 [jbd2/sda1-8]
+root       108  0.0  0.0      0     0 ?        S<   00:45   0:00 [ext4-rsv-conver]
+root       138  0.0  0.0      0     0 ?        S    00:45   0:00 [kauditd]
+root       142  0.0  0.1  29800  3592 ?        Ss   00:45   0:00 /lib/systemd/systemd-journald
+root       147  0.0  0.2  42100  4652 ?        Ss   00:45   0:00 /lib/systemd/systemd-udevd
+root       188  0.0  0.0      0     0 ?        S<   00:46   0:00 [ttm_swap]
+root       360  0.0  0.1  37080  2696 ?        Ss   00:46   0:00 /sbin/rpcbind -w
+statd      373  0.0  0.1  37280  2924 ?        Ss   00:46   0:00 /sbin/rpc.statd
+root       378  0.0  0.0      0     0 ?        S<   00:46   0:00 [rpciod]
+root       380  0.0  0.0      0     0 ?        S<   00:46   0:00 [nfsiod]
+root       387  0.0  0.0  23356   204 ?        Ss   00:46   0:00 /usr/sbin/rpc.idmapd
+daemon     388  0.0  0.0  19024  1724 ?        Ss   00:46   0:00 /usr/sbin/atd -f
+root       389  0.0  0.1  27476  2620 ?        Ss   00:46   0:00 /usr/sbin/cron -f
+root       392  0.0  0.1  19856  2580 ?        Ss   00:46   0:00 /lib/systemd/systemd-logind
+message+   395  0.0  0.1  42124  3372 ?        Ss   00:46   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       408  0.0  0.1 258672  3284 ?        Ssl  00:46   0:00 /usr/sbin/rsyslogd -n
+root       413  0.0  0.0   4256  1576 ?        Ss   00:46   0:00 /usr/sbin/acpid
+root       414  0.0  0.1  63316  2944 tty1     Ss   00:46   0:00 /bin/login --     
+root       453  0.0  0.2  55180  5328 ?        Ss   00:46   0:00 /usr/sbin/sshd -D
+root       678  0.0  0.2  75616  4572 ?        Ss   00:46   0:00 /usr/sbin/apache2 -k start
+www-data   681  0.0  0.1 364772  3988 ?        Sl   00:46   0:02 /usr/sbin/apache2 -k start
+www-data   682  0.0  0.1 364772  3988 ?        Sl   00:46   0:01 /usr/sbin/apache2 -k start
+root       737  0.0  0.3  25400  7672 ?        Ss   00:46   0:00 dhclient -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+Debian-+   787  0.0  0.1  53280  3208 ?        Ss   00:46   0:00 /usr/sbin/exim4 -bd -q30m
+root       797  0.0  0.2  23132  5144 tty1     S    00:46   0:00 -bash
+root       840  0.0  0.2  80160  5860 ?        Ss   00:48   0:00 sshd: mohamed [priv]
+mohamed    842  0.0  0.2  80160  4716 ?        S    00:48   0:01 sshd: mohamed@pts/0 
+mohamed    843  0.0  0.2  22976  4708 pts/0    Ss   00:48   0:00 -bash
+root       856  0.0  0.1  46360  3136 pts/0    S    00:48   0:00 su
+root       857  0.0  0.1  21864  3736 pts/0    S+   00:48   0:00 bash
+root      1152  0.0  0.0      0     0 ?        S    00:51   0:00 [kworker/u2:2]
+root      3276  0.0  0.0      0     0 ?        S    01:36   0:00 [kworker/0:0]
+root      3277  0.0  0.0      0     0 ?        S    01:41   0:00 [kworker/0:1]
+root      3280  0.0  0.0      0     0 ?        S    01:46   0:00 [kworker/0:2]
+root      3282  0.0  0.1  13324  3056 tty1     S+   01:50   0:00 /bin/bash ./setup.sh
+root      3337  0.0  0.1  19104  2408 tty1     R+   01:50   0:00 ps auxwww
