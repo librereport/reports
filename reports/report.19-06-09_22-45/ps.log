@@ -1,0 +1,120 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.8  0.2  28668  4704 ?        Ss   22:41   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    22:41   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   22:41   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   22:41   0:00 [rcu_par_gp]
+root         5  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/0:0-eve]
+root         6  0.0  0.0      0     0 ?        I<   22:41   0:00 [kworker/0:0H-kb]
+root         7  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/u2:0-ev]
+root         8  0.0  0.0      0     0 ?        I<   22:41   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    22:41   0:00 [ksoftirqd/0]
+root        10  0.0  0.0      0     0 ?        I    22:41   0:00 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    22:41   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    22:41   0:00 [idle_inject/0]
+root        13  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/0:1-eve]
+root        14  0.0  0.0      0     0 ?        S    22:41   0:00 [cpuhp/0]
+root        15  0.0  0.0      0     0 ?        S    22:41   0:00 [kdevtmpfs]
+root        16  0.0  0.0      0     0 ?        I<   22:41   0:00 [netns]
+root        17  0.0  0.0      0     0 ?        S    22:41   0:00 [rcu_tasks_kthre]
+root        18  0.0  0.0      0     0 ?        S    22:41   0:00 [kauditd]
+root        19  0.0  0.0      0     0 ?        S    22:41   0:00 [khungtaskd]
+root        20  0.0  0.0      0     0 ?        S    22:41   0:00 [oom_reaper]
+root        21  0.0  0.0      0     0 ?        I<   22:41   0:00 [writeback]
+root        22  0.0  0.0      0     0 ?        S    22:41   0:00 [kcompactd0]
+root        23  0.0  0.0      0     0 ?        SN   22:41   0:00 [ksmd]
+root        24  0.0  0.0      0     0 ?        SN   22:41   0:00 [khugepaged]
+root        25  0.0  0.0      0     0 ?        I<   22:41   0:00 [crypto]
+root        26  0.0  0.0      0     0 ?        I<   22:41   0:00 [kintegrityd]
+root        27  0.0  0.0      0     0 ?        I<   22:41   0:00 [kblockd]
+root        28  0.0  0.0      0     0 ?        I<   22:41   0:00 [tpm_dev_wq]
+root        29  0.0  0.0      0     0 ?        I<   22:41   0:00 [ata_sff]
+root        30  0.0  0.0      0     0 ?        I<   22:41   0:00 [md]
+root        31  0.0  0.0      0     0 ?        I<   22:41   0:00 [edac-poller]
+root        32  0.0  0.0      0     0 ?        I<   22:41   0:00 [devfreq_wq]
+root        33  0.0  0.0      0     0 ?        S    22:41   0:00 [watchdogd]
+root        34  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/u2:1-ev]
+root        37  0.0  0.0      0     0 ?        S    22:41   0:00 [kswapd0]
+root        38  0.0  0.0      0     0 ?        I<   22:41   0:00 [kworker/u3:0]
+root        39  0.0  0.0      0     0 ?        S    22:41   0:00 [ecryptfs-kthrea]
+root       132  0.0  0.0      0     0 ?        I<   22:41   0:00 [kthrotld]
+root       133  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/24-pciehp]
+root       134  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/25-pciehp]
+root       135  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/26-pciehp]
+root       136  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/27-pciehp]
+root       137  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/28-pciehp]
+root       138  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/29-pciehp]
+root       139  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/30-pciehp]
+root       140  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/31-pciehp]
+root       141  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/32-pciehp]
+root       142  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/33-pciehp]
+root       143  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/34-pciehp]
+root       144  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/35-pciehp]
+root       145  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/36-pciehp]
+root       146  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/37-pciehp]
+root       147  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/38-pciehp]
+root       148  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/39-pciehp]
+root       149  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/40-pciehp]
+root       150  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/41-pciehp]
+root       151  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/42-pciehp]
+root       152  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/43-pciehp]
+root       153  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/44-pciehp]
+root       154  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/45-pciehp]
+root       155  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/46-pciehp]
+root       156  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/47-pciehp]
+root       157  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/48-pciehp]
+root       158  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/49-pciehp]
+root       159  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/50-pciehp]
+root       160  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/51-pciehp]
+root       161  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/52-pciehp]
+root       162  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/53-pciehp]
+root       163  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/54-pciehp]
+root       164  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/55-pciehp]
+root       165  0.0  0.0      0     0 ?        I<   22:41   0:00 [acpi_thermal_pm]
+root       166  0.0  0.0      0     0 ?        S    22:41   0:00 [scsi_eh_0]
+root       167  0.0  0.0      0     0 ?        I<   22:41   0:00 [scsi_tmf_0]
+root       168  0.0  0.0      0     0 ?        S    22:41   0:00 [scsi_eh_1]
+root       169  0.0  0.0      0     0 ?        I<   22:41   0:00 [scsi_tmf_1]
+root       170  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/u2:2-ev]
+root       171  0.0  0.0      0     0 ?        I<   22:41   0:00 [ipv6_addrconf]
+root       172  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/0:2-mm_]
+root       173  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/u2:3]
+root       184  0.0  0.0      0     0 ?        I<   22:41   0:00 [kstrp]
+root       203  0.0  0.0      0     0 ?        I<   22:41   0:00 [charger_manager]
+root       204  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/u2:4-ev]
+root       237  0.1  0.0      0     0 ?        I<   22:41   0:00 [kworker/0:1H-kb]
+root       239  0.0  0.0      0     0 ?        I<   22:41   0:00 [mpt_poll_0]
+root       240  0.0  0.0      0     0 ?        I<   22:41   0:00 [mpt/0]
+root       241  0.0  0.0      0     0 ?        S    22:41   0:00 [scsi_eh_2]
+root       242  0.0  0.0      0     0 ?        I<   22:41   0:00 [scsi_tmf_2]
+root       262  0.0  0.0      0     0 ?        S    22:41   0:00 [jbd2/sda1-8]
+root       263  0.0  0.0      0     0 ?        I<   22:41   0:00 [ext4-rsv-conver]
+root       296  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/0:3-eve]
+root       306  0.0  0.0      0     0 ?        I    22:41   0:00 [kworker/0:4-cgr]
+root       308  0.0  0.1  29748  3512 ?        Ss   22:41   0:00 /lib/systemd/systemd-journald
+root       310  0.1  0.0      0     0 ?        I    22:41   0:00 [kworker/0:5-cgr]
+root       312  0.3  0.1  41628  3264 ?        Ss   22:41   0:00 /lib/systemd/systemd-udevd
+root       372  0.0  0.0      0     0 ?        S    22:41   0:00 [irq/16-vmwgfx]
+root       373  0.0  0.0      0     0 ?        I<   22:41   0:00 [ttm_swap]
+root       529  0.1  0.1  37080  2688 ?        Ss   22:41   0:00 /sbin/rpcbind -w
+statd      542  0.0  0.1  37280  3064 ?        Ss   22:41   0:00 /sbin/rpc.statd
+root       547  0.0  0.0      0     0 ?        I<   22:41   0:00 [rpciod]
+root       548  0.0  0.0      0     0 ?        I<   22:41   0:00 [xprtiod]
+root       550  0.0  0.0      0     0 ?        I<   22:41   0:00 [nfsiod]
+root       557  0.0  0.0  23356   208 ?        Ss   22:41   0:00 /usr/sbin/rpc.idmapd
+daemon     558  0.0  0.0  19024  1752 ?        Ss   22:41   0:00 /usr/sbin/atd -f
+root       559  0.0  0.1  27476  2668 ?        Ss   22:41   0:00 /usr/sbin/cron -f
+root       562  0.0  0.1  19856  2604 ?        Ss   22:41   0:00 /lib/systemd/systemd-logind
+message+   565  0.0  0.1  42124  3308 ?        Ss   22:41   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       823  0.0  0.1 258672  3412 ?        Ssl  22:41   0:00 /usr/sbin/rsyslogd -n
+root       825  0.0  0.0   4256  1680 ?        Ss   22:41   0:00 /usr/sbin/acpid
+root       827  0.0  0.1  63532  3044 tty1     Ss   22:41   0:00 /bin/login --     
+root       828  0.0  0.2  55180  5360 ?        Ss   22:41   0:00 /usr/sbin/sshd -D
+Debian-+   843  0.0  0.1  53288  3232 ?        Ss   22:41   0:00 /usr/sbin/exim4 -bd -q30m
+root       851  0.0  0.2  79820  4764 ?        Ss   22:41   0:00 /usr/sbin/apache2 -k start
+www-data   853  0.0  0.2 368976  4080 ?        Sl   22:41   0:00 /usr/sbin/apache2 -k start
+www-data   854  0.0  0.2 368976  4080 ?        Sl   22:41   0:00 /usr/sbin/apache2 -k start
+root       925  0.0  0.3  25400  7672 ?        Ss   22:42   0:00 dhclient -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+root       968  0.1  0.2  23228  5280 tty1     S    22:42   0:00 -bash
+root       988  0.0  0.1  13324  3080 tty1     S+   22:43   0:00 /bin/bash ./setup.sh
+root      1028  0.0  0.0   4088  1152 ?        S    22:43   0:00 bpfilter_umh
+root      2205  0.0  0.1  19104  2408 tty1     R+   22:45   0:00 ps auxwww

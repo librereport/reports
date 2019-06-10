@@ -1,0 +1,114 @@
+Detecting platform ...
+Debian GNU/Linux 8 \n \l
+Platform: D8
+Detecting hardware ...
+vendor_id	: GenuineIntel
+model name	: Intel(R) Core(TM) i3-2100 CPU @ 3.10GHz
+Processor: Intel
+Hardware: VMware Virtual Platform
+Architecture: x86_64
+Checking Internet access ...
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=51 time=54.8 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 54.828/54.828/54.828/0.000 ms
+Checking DNS resolution ...
+192.30.253.112  github.com
+192.30.253.112  github.com
+192.30.253.112  github.com
+192.30.253.112  github.com
+192.30.253.112  github.com
+192.30.253.112  github.com
+Showing the interface configuration ...
+Checking requirements ...
+Physical memory size: 1988800 KB
+Root partition size: 45334324 KB
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=51 time=55.2 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.213/55.213/55.213/0.000 ms
+Internet connection established on interface eth0
+Internal interface: br1
+bridge name	bridge id		STP enabled	interfaces
+br1		8000.000c2931d2b5	no		eth1
+Time sync ...
+Ign http://ftp.debian.org jessie InRelease
+Get:1 http://ftp.debian.org jessie-updates InRelease [7,340 B]
+Ign http://ftp.debian.org jessie-backports InRelease
+Get:2 http://ftp.debian.org jessie Release.gpg [2,420 B]
+Get:3 http://security.debian.org jessie/updates InRelease [44.9 kB]
+Ign http://ftp.debian.org jessie-backports Release.gpg
+Get:4 http://ftp.debian.org jessie Release [148 kB]
+Hit http://security.debian.org jessie/updates/main Sources
+Ign http://ftp.debian.org jessie-backports Release
+Get:5 https://linux-libre.fsfla.org freesh InRelease [5,418 B]
+Hit http://security.debian.org jessie/updates/main amd64 Packages
+Get:6 http://ftp.debian.org jessie/main Sources [7,063 kB]
+Hit http://security.debian.org jessie/updates/main Translation-en
+Get:7 https://linux-libre.fsfla.org freesh/main amd64 Packages [2,913 B]
+Get:8 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Get:9 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Get:10 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Get:11 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Get:12 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Get:13 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Get:14 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Get:15 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Get:16 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Ign https://linux-libre.fsfla.org freesh/main Translation-en_US
+Get:17 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Ign https://linux-libre.fsfla.org freesh/main Translation-en
+Get:18 http://ftp.debian.org jessie/main amd64 Packages [6,818 kB]
+Get:19 http://ftp.debian.org jessie/main Translation-en [4,581 kB]
+Err http://ftp.debian.org jessie-backports/main Sources
+  404  Not Found [IP: 130.89.148.12 80]
+Err http://ftp.debian.org jessie-backports/main amd64 Packages
+  404  Not Found [IP: 130.89.148.12 80]
+Ign http://ftp.debian.org jessie-backports/main Translation-en_US
+Ign http://ftp.debian.org jessie-backports/main Translation-en
+Fetched 18.7 MB in 14s (1,265 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  libopts25 lockfile-progs
+Suggested packages:
+  ntp-doc
+The following NEW packages will be installed:
+  libopts25 lockfile-progs ntp ntpdate
+0 upgraded, 4 newly installed, 0 to remove and 2 not upgraded.
+Need to get 549 kB of archives.
+After this operation, 1,769 kB of additional disk space will be used.
+Get:1 http://ftp.debian.org/debian/ jessie/main libopts25 amd64 1:5.18.4-3 [69.6 kB]
+Get:2 http://ftp.debian.org/debian/ jessie/main ntp amd64 1:4.2.6.p5+dfsg-7+deb8u2 [394 kB]
+Get:3 http://ftp.debian.org/debian/ jessie/main ntpdate amd64 1:4.2.6.p5+dfsg-7+deb8u2 [74.7 kB]
+Get:4 http://ftp.debian.org/debian/ jessie/main lockfile-progs amd64 0.1.17 [11.0 kB]
+Fetched 549 kB in 1s (341 kB/s)
+Selecting previously unselected package libopts25:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42912 files and directories currently installed.)
+Preparing to unpack .../libopts25_1%3a5.18.4-3_amd64.deb ...
+Unpacking libopts25:amd64 (1:5.18.4-3) ...
+Selecting previously unselected package ntp.
+Preparing to unpack .../ntp_1%3a4.2.6.p5+dfsg-7+deb8u2_amd64.deb ...
+Unpacking ntp (1:4.2.6.p5+dfsg-7+deb8u2) ...
+Selecting previously unselected package ntpdate.
+Preparing to unpack .../ntpdate_1%3a4.2.6.p5+dfsg-7+deb8u2_amd64.deb ...
+Unpacking ntpdate (1:4.2.6.p5+dfsg-7+deb8u2) ...
+Selecting previously unselected package lockfile-progs.
+Preparing to unpack .../lockfile-progs_0.1.17_amd64.deb ...
+Unpacking lockfile-progs (0.1.17) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Processing triggers for systemd (215-17+deb8u13) ...
+Setting up libopts25:amd64 (1:5.18.4-3) ...
+Setting up ntp (1:4.2.6.p5+dfsg-7+deb8u2) ...
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+Setting up ntpdate (1:4.2.6.p5+dfsg-7+deb8u2) ...
+Setting up lockfile-progs (0.1.17) ...
+Processing triggers for libc-bin (2.19-18+deb8u10) ...
+Processing triggers for systemd (215-17+deb8u13) ...
+Stopping ntp (via systemctl): ntp.service.
+Error: unable to set time
