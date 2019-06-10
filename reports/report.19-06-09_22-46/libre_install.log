@@ -1,0 +1,82 @@
+Detecting platform ...
+Debian GNU/Linux 8 \n \l
+Platform: D8
+Detecting hardware ...
+vendor_id	: GenuineIntel
+model name	: Intel(R) Core(TM) i3-2100 CPU @ 3.10GHz
+Processor: Intel
+Hardware: VMware Virtual Platform
+Architecture: x86_64
+Checking Internet access ...
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=51 time=56.5 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 56.580/56.580/56.580/0.000 ms
+Checking DNS resolution ...
+192.30.253.112  github.com
+192.30.253.112  github.com
+192.30.253.112  github.com
+192.30.253.112  github.com
+192.30.253.112  github.com
+192.30.253.112  github.com
+192.30.253.112  github.com
+Showing the interface configuration ...
+Checking requirements ...
+Physical memory size: 1988800 KB
+Root partition size: 45217460 KB
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=51 time=55.1 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 55.136/55.136/55.136/0.000 ms
+Internet connection established on interface eth0
+Internal interface: br1
+bridge name	bridge id		STP enabled	interfaces
+br1		8000.000c2931d2b5	no		eth1
+Time sync ...
+Ign http://ftp.debian.org jessie InRelease
+Hit http://ftp.debian.org jessie-updates InRelease
+Ign http://ftp.debian.org jessie-backports InRelease
+Hit http://ftp.debian.org jessie Release.gpg
+Ign http://ftp.debian.org jessie-backports Release.gpg
+Hit http://ftp.debian.org jessie Release
+Ign http://ftp.debian.org jessie-backports Release
+Hit http://security.debian.org jessie/updates InRelease
+Hit https://linux-libre.fsfla.org freesh InRelease
+Hit http://security.debian.org jessie/updates/main Sources
+Hit http://ftp.debian.org jessie/main Sources
+Hit http://ftp.debian.org jessie/main amd64 Packages
+Hit http://ftp.debian.org jessie/main Translation-en
+Get:1 https://linux-libre.fsfla.org freesh/main amd64 Packages
+Hit http://security.debian.org jessie/updates/main amd64 Packages
+Get:2 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Hit http://security.debian.org jessie/updates/main Translation-en
+Get:3 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Hit https://linux-libre.fsfla.org freesh/main amd64 Packages
+Get:4 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Get:5 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Get:6 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Get:7 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Err http://ftp.debian.org jessie-backports/main Sources
+  404  Not Found [IP: 130.89.148.12 80]
+Err http://ftp.debian.org jessie-backports/main amd64 Packages
+  404  Not Found [IP: 130.89.148.12 80]
+Get:8 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Ign http://ftp.debian.org jessie-backports/main Translation-en_US
+Get:9 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Ign http://ftp.debian.org jessie-backports/main Translation-en
+Get:10 https://linux-libre.fsfla.org freesh/main Translation-en_US [365 B]
+Ign https://linux-libre.fsfla.org freesh/main Translation-en_US
+Get:11 https://linux-libre.fsfla.org freesh/main Translation-en [362 B]
+Ign https://linux-libre.fsfla.org freesh/main Translation-en
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ntp is already the newest version.
+ntpdate is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Stopping ntp (via systemctl): ntp.service.
+Error: unable to set time
